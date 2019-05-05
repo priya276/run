@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
 console.log('Visit http://localhost:5000/')
 console.log('Press Ctrl+C to shut down...')
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 5000);
 
 module.exports = app;
