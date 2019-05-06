@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 });
 
 console.log('Visit http://localhost:3000/')
-console.log('Press Ctrl+C to shut down...')
+
 
 app.listen(process.env.PORT || 3000);
 
